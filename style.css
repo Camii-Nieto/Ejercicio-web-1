@@ -1,0 +1,219 @@
+body{
+    margin: 0px;
+}
+
+header{
+    background-color: #243572;
+}
+
+.principal-nav{
+    background-color: white;
+}
+
+.nav-list{
+    padding: 0px;
+    list-style: none;
+    display: flex;
+}
+
+.nav-container{
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+}
+
+.nav-logo{
+    max-width: 100%;
+    display: inline-block;
+    height: 50px;
+    padding: 5px 0px;
+}
+
+.header-container{
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    margin: 0px 0px 50px 500px;
+}
+
+.header-title, .header-img{
+    width: 50%;
+}
+
+.header-title{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 50px;
+    color: white;
+    margin: 200px 0px;
+}
+
+.gaming{
+    color: #f5eb6b;
+    font-weight: bold;
+}
+
+.header-img{
+    display: inline-block;
+    margin: 50px 0px 50px 0px;
+}
+
+.section-mas-jugado{
+    width: 1200px;
+}
+
+.title-section{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin: 0px 0px 25px 450px;
+}
+
+.container-mas-jugado{
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    margin: 0px 0px 0px 500px;
+}
+
+.left-mas-jugado, .right-mas-jugado{
+    width: 50%;
+}
+
+.left-mas-jugado{
+    margin: 0px 50px 0px 0px;
+}
+
+.img-mas-jugado{
+    max-width: 100%;
+}
+
+.p-mas-jugado{
+    max-width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin: 0px 0px 15px 0px;
+    padding: 0px;
+}
+
+.boton-mas-jugado{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    background-color: #00003e;
+    padding: 8px 30px;
+    border-radius: 30px;
+    margin: 5px 0px 0px 0px;
+}
+
+hr{
+    margin: 100px 0px 100px 500px;
+    color: grey;
+    opacity: 60%;
+}
+
+.title-section-2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin: 100px 0px 25px 450px;
+}
+
+.cards-container{
+    margin: 0px 0px 0px 500px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    width: 33%;
+    margin: 0px 80px 0px 0px;
+    box-shadow: 0px 0px 4px 4px grey;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.title-card{
+    padding: 0px;
+    margin: 10px 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.img-card{
+    border-radius: 30px 30px 0px 0px;
+    max-width: 100%;
+}
+
+.p-card{
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.boton-card-lightblue{
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    background-color: #079d9c;
+    margin: 15px 0px 10px 70px;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+.boton-card-blue{
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    background-color: #184983;
+    margin: 15px 0px 10px 70px;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+.boton-card-orange{
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    background-color: #f45c3b;
+    margin: 15px 0px 10px 70px;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+footer{
+    margin: 100px 0px 0px 0px;
+    background-color: #243572;
+}
+
+.container-footer{
+    margin: 0px 0px 0px 500px;
+    width: 1200px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo-footer{
+    display: inline-block;
+    margin: 20px;
+    height: 50px;
+}
+
+.footer-name{
+    display: inline-block;
+    margin:  30px 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: white;
+} 
